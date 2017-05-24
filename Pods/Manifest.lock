@@ -1,0 +1,23 @@
+PODS:
+  - Masonry (1.0.2)
+  - MBProgressHUD (0.9.2)
+  - SDAutoLayout (2.1.7)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+
+DEPENDENCIES:
+  - Masonry
+  - MBProgressHUD (~> 0.9.2)
+  - SDAutoLayout
+  - SDWebImage
+
+SPEC CHECKSUMS:
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  SDAutoLayout: e9b36d04b8c0b504762a04d76fbbe5108944297a
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+
+PODFILE CHECKSUM: 2017586758e660a8377d4bc6740594ac3745a36d
+
+COCOAPODS: 1.2.0

@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0590322BF30C7546C56C6818 /* Pods_GDHEdwardPhotoBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 580C8453EB3A114B3445A5EE /* Pods_GDHEdwardPhotoBrowser.framework */; };
+		F47706EF1ED557D1009C0EBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F47706EE1ED557D1009C0EBA /* main.m */; };
+		F47706F21ED557D1009C0EBA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F47706F11ED557D1009C0EBA /* AppDelegate.m */; };
+		F47706F51ED557D1009C0EBA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F47706F41ED557D1009C0EBA /* ViewController.m */; };
+		F47706F81ED557D1009C0EBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F47706F61ED557D1009C0EBA /* Main.storyboard */; };
+		F47706FA1ED557D1009C0EBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F47706F91ED557D1009C0EBA /* Assets.xcassets */; };
+		F47706FD1ED557D1009C0EBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F47706FB1ED557D1009C0EBA /* LaunchScreen.storyboard */; };
+		F47707081ED557D2009C0EBA /* GDHEdwardPhotoBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F47707071ED557D2009C0EBA /* GDHEdwardPhotoBrowserTests.m */; };
+		F47707131ED557D2009C0EBA /* GDHEdwardPhotoBrowserUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F47707121ED557D2009C0EBA /* GDHEdwardPhotoBrowserUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F47707041ED557D2009C0EBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F47706E21ED557D1009C0EBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F47706E91ED557D1009C0EBA;
+			remoteInfo = GDHEdwardPhotoBrowser;
+		};
+		F477070F1ED557D2009C0EBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F47706E21ED557D1009C0EBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F47706E91ED557D1009C0EBA;
+			remoteInfo = GDHEdwardPhotoBrowser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AB72468D77852E5489701AF /* Pods-GDHEdwardPhotoBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDHEdwardPhotoBrowser.release.xcconfig"; path = "Pods/Target Support Files/Pods-GDHEdwardPhotoBrowser/Pods-GDHEdwardPhotoBrowser.release.xcconfig"; sourceTree = "<group>"; };
+		580C8453EB3A114B3445A5EE /* Pods_GDHEdwardPhotoBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GDHEdwardPhotoBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC950F9DEBAFBCEBC1790B8D /* Pods-GDHEdwardPhotoBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDHEdwardPhotoBrowser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GDHEdwardPhotoBrowser/Pods-GDHEdwardPhotoBrowser.debug.xcconfig"; sourceTree = "<group>"; };
+		F47706EA1ED557D1009C0EBA /* GDHEdwardPhotoBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GDHEdwardPhotoBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F47706EE1ED557D1009C0EBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F47706F01ED557D1009C0EBA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		F47706F11ED557D1009C0EBA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		F47706F31ED557D1009C0EBA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		F47706F41ED557D1009C0EBA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
+		F47706F71ED557D1009C0EBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F47706F91ED557D1009C0EBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		F47706FC1ED557D1009C0EBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F47706FE1ED557D1009C0EBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		F47707031ED557D2009C0EBA /* GDHEdwardPhotoBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GDHEdwardPhotoBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F47707071ED557D2009C0EBA /* GDHEdwardPhotoBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDHEdwardPhotoBrowserTests.m; sourceTree = "<group>"; };
+		F47707091ED557D2009C0EBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F477070E1ED557D2009C0EBA /* GDHEdwardPhotoBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GDHEdwardPhotoBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F47707121ED557D2009C0EBA /* GDHEdwardPhotoBrowserUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDHEdwardPhotoBrowserUITests.m; sourceTree = "<group>"; };
+		F47707141ED557D2009C0EBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F47706E71ED557D1009C0EBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0590322BF30C7546C56C6818 /* Pods_GDHEdwardPhotoBrowser.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F47707001ED557D2009C0EBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F477070B1ED557D2009C0EBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34A8249F1A4A50FC6E208D7B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC950F9DEBAFBCEBC1790B8D /* Pods-GDHEdwardPhotoBrowser.debug.xcconfig */,
+				1AB72468D77852E5489701AF /* Pods-GDHEdwardPhotoBrowser.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		73E0B83925B12480D3CF14B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				580C8453EB3A114B3445A5EE /* Pods_GDHEdwardPhotoBrowser.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F47706E11ED557D1009C0EBA = {
+			isa = PBXGroup;
+			children = (
+				F47706EC1ED557D1009C0EBA /* GDHEdwardPhotoBrowser */,
+				F47707061ED557D2009C0EBA /* GDHEdwardPhotoBrowserTests */,
+				F47707111ED557D2009C0EBA /* GDHEdwardPhotoBrowserUITests */,
+				F47706EB1ED557D1009C0EBA /* Products */,
+				34A8249F1A4A50FC6E208D7B /* Pods */,
+				73E0B83925B12480D3CF14B5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F47706EB1ED557D1009C0EBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F47706EA1ED557D1009C0EBA /* GDHEdwardPhotoBrowser.app */,
+				F47707031ED557D2009C0EBA /* GDHEdwardPhotoBrowserTests.xctest */,
+				F477070E1ED557D2009C0EBA /* GDHEdwardPhotoBrowserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F47706EC1ED557D1009C0EBA /* GDHEdwardPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				F47707201ED5587F009C0EBA /* Other */,
+			);
+			path = GDHEdwardPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		F47706ED1ED557D1009C0EBA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F47706EE1ED557D1009C0EBA /* main.m */,
+			);
+			name = "Supporting Files";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		F47707061ED557D2009C0EBA /* GDHEdwardPhotoBrowserTests */ = {
+			isa = PBXGroup;
+			children = (
+				F47707071ED557D2009C0EBA /* GDHEdwardPhotoBrowserTests.m */,
+				F47707091ED557D2009C0EBA /* Info.plist */,
+			);
+			path = GDHEdwardPhotoBrowserTests;
+			sourceTree = "<group>";
+		};
+		F47707111ED557D2009C0EBA /* GDHEdwardPhotoBrowserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F47707121ED557D2009C0EBA /* GDHEdwardPhotoBrowserUITests.m */,
+				F47707141ED557D2009C0EBA /* Info.plist */,
+			);
+			path = GDHEdwardPhotoBrowserUITests;
+			sourceTree = "<group>";
+		};
+		F47707201ED5587F009C0EBA /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				F47706F01ED557D1009C0EBA /* AppDelegate.h */,
+				F47706F11ED557D1009C0EBA /* AppDelegate.m */,
+				F47706F31ED557D1009C0EBA /* ViewController.h */,
+				F47706F41ED557D1009C0EBA /* ViewController.m */,
+				F47706F61ED557D1009C0EBA /* Main.storyboard */,
+				F47706F91ED557D1009C0EBA /* Assets.xcassets */,
+				F47706FB1ED557D1009C0EBA /* LaunchScreen.storyboard */,
+				F47706FE1ED557D1009C0EBA /* Info.plist */,
+				F47706ED1ED557D1009C0EBA /* Supporting Files */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F47706E91ED557D1009C0EBA /* GDHEdwardPhotoBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F47707171ED557D2009C0EBA /* Build configuration list for PBXNativeTarget "GDHEdwardPhotoBrowser" */;
+			buildPhases = (
+				CE0649ECA1FD14A39052DD7D /* [CP] Check Pods Manifest.lock */,
+				F47706E61ED557D1009C0EBA /* Sources */,
+				F47706E71ED557D1009C0EBA /* Frameworks */,
+				F47706E81ED557D1009C0EBA /* Resources */,
+				AD03B6B9D49378EA8BE0F319 /* [CP] Embed Pods Frameworks */,
+				89DBE4C9A4F5EFF95244AA74 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GDHEdwardPhotoBrowser;
+			productName = GDHEdwardPhotoBrowser;
+			productReference = F47706EA1ED557D1009C0EBA /* GDHEdwardPhotoBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F47707021ED557D2009C0EBA /* GDHEdwardPhotoBrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F477071A1ED557D2009C0EBA /* Build configuration list for PBXNativeTarget "GDHEdwardPhotoBrowserTests" */;
+			buildPhases = (
+				F47706FF1ED557D2009C0EBA /* Sources */,
+				F47707001ED557D2009C0EBA /* Frameworks */,
+				F47707011ED557D2009C0EBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F47707051ED557D2009C0EBA /* PBXTargetDependency */,
+			);
+			name = GDHEdwardPhotoBrowserTests;
+			productName = GDHEdwardPhotoBrowserTests;
+			productReference = F47707031ED557D2009C0EBA /* GDHEdwardPhotoBrowserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F477070D1ED557D2009C0EBA /* GDHEdwardPhotoBrowserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F477071D1ED557D2009C0EBA /* Build configuration list for PBXNativeTarget "GDHEdwardPhotoBrowserUITests" */;
+			buildPhases = (
+				F477070A1ED557D2009C0EBA /* Sources */,
+				F477070B1ED557D2009C0EBA /* Frameworks */,
+				F477070C1ED557D2009C0EBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F47707101ED557D2009C0EBA /* PBXTargetDependency */,
+			);
+			name = GDHEdwardPhotoBrowserUITests;
+			productName = GDHEdwardPhotoBrowserUITests;
+			productReference = F477070E1ED557D2009C0EBA /* GDHEdwardPhotoBrowserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F47706E21ED557D1009C0EBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "高得华";
+				TargetAttributes = {
+					F47706E91ED557D1009C0EBA = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3858N9SG7V;
+						ProvisioningStyle = Automatic;
+					};
+					F47707021ED557D2009C0EBA = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3858N9SG7V;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F47706E91ED557D1009C0EBA;
+					};
+					F477070D1ED557D2009C0EBA = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3858N9SG7V;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F47706E91ED557D1009C0EBA;
+					};
+				};
+			};
+			buildConfigurationList = F47706E51ED557D1009C0EBA /* Build configuration list for PBXProject "GDHEdwardPhotoBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F47706E11ED557D1009C0EBA;
+			productRefGroup = F47706EB1ED557D1009C0EBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F47706E91ED557D1009C0EBA /* GDHEdwardPhotoBrowser */,
+				F47707021ED557D2009C0EBA /* GDHEdwardPhotoBrowserTests */,
+				F477070D1ED557D2009C0EBA /* GDHEdwardPhotoBrowserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F47706E81ED557D1009C0EBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F47706FD1ED557D1009C0EBA /* LaunchScreen.storyboard in Resources */,
+				F47706FA1ED557D1009C0EBA /* Assets.xcassets in Resources */,
+				F47706F81ED557D1009C0EBA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F47707011ED557D2009C0EBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F477070C1ED557D2009C0EBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		89DBE4C9A4F5EFF95244AA74 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GDHEdwardPhotoBrowser/Pods-GDHEdwardPhotoBrowser-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD03B6B9D49378EA8BE0F319 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GDHEdwardPhotoBrowser/Pods-GDHEdwardPhotoBrowser-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE0649ECA1FD14A39052DD7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F47706E61ED557D1009C0EBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F47706F51ED557D1009C0EBA /* ViewController.m in Sources */,
+				F47706F21ED557D1009C0EBA /* AppDelegate.m in Sources */,
+				F47706EF1ED557D1009C0EBA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F47706FF1ED557D2009C0EBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F47707081ED557D2009C0EBA /* GDHEdwardPhotoBrowserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F477070A1ED557D2009C0EBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F47707131ED557D2009C0EBA /* GDHEdwardPhotoBrowserUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F47707051ED557D2009C0EBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F47706E91ED557D1009C0EBA /* GDHEdwardPhotoBrowser */;
+			targetProxy = F47707041ED557D2009C0EBA /* PBXContainerItemProxy */;
+		};
+		F47707101ED557D2009C0EBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F47706E91ED557D1009C0EBA /* GDHEdwardPhotoBrowser */;
+			targetProxy = F477070F1ED557D2009C0EBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F47706F61ED557D1009C0EBA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F47706F71ED557D1009C0EBA /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		F47706FB1ED557D1009C0EBA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F47706FC1ED557D1009C0EBA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F47707151ED557D2009C0EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F47707161ED557D2009C0EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F47707181ED557D2009C0EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC950F9DEBAFBCEBC1790B8D /* Pods-GDHEdwardPhotoBrowser.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3858N9SG7V;
+				INFOPLIST_FILE = GDHEdwardPhotoBrowser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GDHEdward.GDHEdwardPhotoBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F47707191ED557D2009C0EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AB72468D77852E5489701AF /* Pods-GDHEdwardPhotoBrowser.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3858N9SG7V;
+				INFOPLIST_FILE = GDHEdwardPhotoBrowser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GDHEdward.GDHEdwardPhotoBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F477071B1ED557D2009C0EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3858N9SG7V;
+				INFOPLIST_FILE = GDHEdwardPhotoBrowserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GDHEdward.GDHEdwardPhotoBrowserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GDHEdwardPhotoBrowser.app/GDHEdwardPhotoBrowser";
+			};
+			name = Debug;
+		};
+		F477071C1ED557D2009C0EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3858N9SG7V;
+				INFOPLIST_FILE = GDHEdwardPhotoBrowserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GDHEdward.GDHEdwardPhotoBrowserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GDHEdwardPhotoBrowser.app/GDHEdwardPhotoBrowser";
+			};
+			name = Release;
+		};
+		F477071E1ED557D2009C0EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3858N9SG7V;
+				INFOPLIST_FILE = GDHEdwardPhotoBrowserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GDHEdward.GDHEdwardPhotoBrowserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GDHEdwardPhotoBrowser;
+			};
+			name = Debug;
+		};
+		F477071F1ED557D2009C0EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3858N9SG7V;
+				INFOPLIST_FILE = GDHEdwardPhotoBrowserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GDHEdward.GDHEdwardPhotoBrowserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GDHEdwardPhotoBrowser;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F47706E51ED557D1009C0EBA /* Build configuration list for PBXProject "GDHEdwardPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F47707151ED557D2009C0EBA /* Debug */,
+				F47707161ED557D2009C0EBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F47707171ED557D2009C0EBA /* Build configuration list for PBXNativeTarget "GDHEdwardPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F47707181ED557D2009C0EBA /* Debug */,
+				F47707191ED557D2009C0EBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F477071A1ED557D2009C0EBA /* Build configuration list for PBXNativeTarget "GDHEdwardPhotoBrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F477071B1ED557D2009C0EBA /* Debug */,
+				F477071C1ED557D2009C0EBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F477071D1ED557D2009C0EBA /* Build configuration list for PBXNativeTarget "GDHEdwardPhotoBrowserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F477071E1ED557D2009C0EBA /* Debug */,
+				F477071F1ED557D2009C0EBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F47706E21ED557D1009C0EBA /* Project object */;
+}
